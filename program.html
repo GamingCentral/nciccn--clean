@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>NCICCN</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <link rel="icon" href="newImgs/Logo without bg.ico">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/program.css">
+        
+        <style>
+            .btn {
+                background-color: #074d89 !important;
+                color: white !important;
+            }
+            .text-primary {
+                color: #47a9da !important;
+            }
+            .bg-light {
+                background-color: #85d6e614 !important;
+            }
+            .navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link.active {
+                color: #074d89 !important;
+            }
+            .border-primary {
+                border-color: #074d89 !important;
+            }
+            .service-item:hover .service-content-icon i {
+                color: #074d89 !important;
+            }
+            .faSymbols{
+                color: #074d89 !important;
+            }
+            .service-content::after{
+                    background: #2483b3 !important;
+            }
+            .faSymbols::after{
+                color: white !important;
+            }
+            .service-item:hover .service-content-icon i {
+                color: black !important;
+            }
+            .service-item:hover .service-content-icon h4{
+                color: white !important;
+                transition: 1s;
+                transition-property: color;
+            }
+            .blink {
+                animation: blinker 1.5s linear infinite;
+                font-size: 1em;
+                /* Larger, responsive font size */
+            }
+
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+            .experience .timeline::after {
+                content: '';
+                position: absolute;
+                width: 2px;
+                background: #074d89;
+                top: 0;
+                bottom: 0;
+                left: 50%;
+                margin-left: -1px;
+            }
+            .experience .timeline .timeline-item::after {
+                content: '';
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                top: 48px;
+                right: -8px;
+                background: #fff;
+                border: 2px solid #074d89;
+                border-radius: 16px;
+                z-index: 1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Navbar start -->
+        <div class="container-fluid nav-bar" style="background-color: #85d6e614 !important; border: 0 !important;">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg py-4" style="flex-wrap: wrap;">
+                    <a href="index.html" class="navbar-brand" style="display: flex; flex-direction: row; align-items: center;">
+                        <img src="newImgs/Logo without bg.png" alt="" class="logo" style="width:50px">
+                        <h1 class="text-primary fw-bold mb-0 ">NC<span class="text-dark" style="color: #074d89 !important;">ICCN</span></h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav" style="margin-left: auto; margin-right: 10px !important;">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="program.html" class="nav-item nav-link active">Schedule</a>
+                            <!--<a href="#" class="nav-item nav-link">Topics</a> give link to download-->
+                            <!--<a href="event.html" class="nav-item nav-link">Authors</a>
+                            <a href="menu.html" class="nav-item nav-link">Register</a>-->
+                            <a href="committee.html" class="nav-link nav-item">Committees</a>
+                                <!--<div class="dropdown-menu bg-light">
+                                    <a href="book.html" class="dropdown-item">Organizing Committee</a>
+                                    <a href="blog.html" class="dropdown-item">Advisory Committee</a>
+                                    <a href="team.html" class="dropdown-item">Technical Committee</a>
+                                </div>-->
+                            <a href="#contact" class="nav-item nav-link">Contact</a>
+                            <a href="https://forms.gle/Wm6wDkNDXy3riUj98" target="_blank" class="nav-item nav-link">Submit Paper</a> 
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="experience" id="experience" style="background-color: #85d6e614;">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <h1 class="py-5" style="color: #074d89;">Important Dates</h1>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">available till 28-03-2024</div>
+                            <h2>Paper Submission</h2>
+                            <a href="https://forms.gle/Wm6wDkNDXy3riUj98" target="_blank"><h4 style="text-decoration: underline; color: blue;">click here</h4> </a>
+                            <p>
+                                Submit your paper in the above link. Check template for paper <a href="docs/Paper-Format.pdf" target="_blank" style="color: blue; text-decoration: underline;">here</a>.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">01-04-2024</div>
+                            <h2>Acceptance Notification</h2>
+                            <h4 style="color: blue;">upcoming</h4>
+                            <p>
+                                Email Notification will be posted on details of selection.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">04-04-2024</div>
+                            <h2>Fee Payment</h2>
+                            <a href="#"><h4 style="color: blue; text-decoration: underline;">brochure available soon!</h4></a>
+                            <p>
+                                Registration fee payment for accepted papers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">11-04-2024</div>
+                            <h2>Camera ready copy submission</h2>
+                            <h4 style="color: blue;">upcoming</h4>
+                            <p>
+                                <!--write data-->
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">19-04-2024 to 20-04-2024</div>
+                            <h2>NCICCN 2024</h2>
+                            <a href="#"><h4 style="color: blue; text-decoration: underline;">brochure available soon!</h4></a>
+                            <p>
+                                Come join us at NCICCN 2024. Check the above brochure for more details.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-6 my-0 mb-0 bg-light wow" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h1 class="text-primary">NCICCN<span class="text-dark">2024</span></h1>
+                            <p class="lh-lg mb-4">Welcome to the official website of the NCICCN! NCICCN is an annual conference dedicated to advancing research, innovation, and collaboration in the fields of cloud computing and computer networks.</p>
+                            <div class="footer-icon d-flex">
+                                <!--<a class="btn btn-primary btn-sm-square me-2 rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href="#"><i class="fab fa-twitter"></i></a> -->
+                                <a href="https://www.instagram.com/nciccn?igsh=MWJ4bTUwOGJoemdoOA==" target="_blank" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                                <a href="mailto: nciccn@sreenidhi.edu.in" target="_blank" class="btn btn-primary btn-sm-square rounded-circle"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Useful Links</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a class="text-body mb-3" href="https://forms.gle/Wm6wDkNDXy3riUj98" target="_blank"><i class="fa fa-check text-primary me-2"></i>Submit Paper</a>
+                                <a class="text-body mb-3" href="docs/Paper-Format.pdf" target="_blank"><i class="fa fa-check text-primary me-2"></i>Paper Format</a>
+                                <!--<a class="text-body mb-3" href="#"><i class="fa fa-check text-primary me-2"></i>Paper Template</a>-->
+                                <a class="text-body mb-3" href="#contact"><i class="fa fa-check text-primary me-2"></i>Contact Us</a>
+                                <a class="text-body mb-3" href="https://sreenidhi.edu.in/" target="_blank"><i class="fa fa-check text-primary me-2"></i>SNIST</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6" id="contact">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Contact Us</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i> #1-2-288/23/1 <br> Domalguda, Hyderabad-500 029 <br> Telangana, India</p>
+                                <p><i class="fa fa-phone-alt text-primary me-2"></i>+91 7793960888</p>
+                                <p><a href="mailto: nciccn@sreenidhi.edu.in"><i class="fas fa-envelope text-primary me-2"></i>nciccn@sreenidhi.edu.in</p></a>
+                                <p><i class="fa fa-clock text-primary me-2"></i> contact timings: 4pm to 10pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Organizers</h4>
+                            <div class="row g-2">
+                                <div class="col-4"  style="width:100%;">
+                                     <img src="newImgs/snistLogo.png" class="img-fluid rounded border border-primary p-2" alt="">
+                                </div>
+                                <!--<div class="col-4">
+                                     <img src="img/menu-02.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-03.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-04.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-05.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-06.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-dark py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>NCICCN 2024</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed By <a class="border-bottom" href="#">Team NCICCN 2024</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a> 
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
